@@ -1,0 +1,19 @@
+
+
+
+
+
+
+
+
+PROMPT1		.STRINGZ "Enter the first number (0-99): "
+PROMPT_OP	.STRINGZ "Enter an operation (+,-,*): "
+PROMPT2		.STRINGZ "Enter the second number (0-99): "
+RESULT		.STRINGZ "Result: "
+NEGATIVE	.STRINGZ "-"
+
+OP_SAVE		.BLKW #1
+SAVE_R7		.BLKW #1
+DIGITS		.BLKW #4
+
+.END
